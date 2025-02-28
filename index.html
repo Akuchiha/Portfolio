@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Arjun - Portfolio</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Arjun</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon"><i class='bx bx-menu'></i></label>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" class="theme-icon"><i class='bx bx-moon'></i></label>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Hello, I'm <span>Arjun</span></h1>
+                <p>Full Stack Developer</p>
+                <a href="resume.jpg" class="btn" target="_blank">Download CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Arjun">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate Full Stack Developer with experience in creating interactive applications and experiences on the web
+                proficient in both front-end and back-end development, making a versatile and valuable asset in the tech industry.</p>
+            <div class="contact-info">
+                <a href="https://github.com/" target="_blank"><img src="github.png" alt="GitHub"></a>
+                <a href="https://linkedin.com/in/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill"><i class='bx bxl-html5'></i><p>HTML</p></div>
+                <div class="skill"><i class='bx bxl-css3'></i><p>CSS</p></div>
+                <div class="skill"><i class='bx bxl-javascript'></i><p>JavaScript</p></div>
+                <div class="skill"><i class='bx bxl-react'></i><p>React</p></div>
+                <div class="skill"><i class='bx bxl-nodejs'></i><p>Node.js</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="project1.jpg" alt="Project 1"></div>
+                    <div class="slide"><img src="project2.jpg" alt="Project 2"></div>
+                    <div class="slide"><img src="project3.jpg" alt="Project 3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+           
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
