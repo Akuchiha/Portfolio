@@ -196,8 +196,8 @@ nav {
 
 .projects .slider {
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
     gap: 1rem;
 }
 
