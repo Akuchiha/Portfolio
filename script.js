@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     const header = document.querySelector('header');
 
-    // Load the initial theme
+   
     if (localStorage.getItem('theme') === 'dark') {
         body.classList.add('dark');
         header.classList.add('dark');
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Automatic scrolling for project section
+    
     const slides = document.querySelector('.projects .slides');
     let isPaused = false;
 
