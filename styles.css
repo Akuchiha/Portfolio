@@ -211,7 +211,7 @@ nav {
 .projects .slide {
     scroll-snap-align: start;
     flex: 0 0 auto;
-    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
     box-sizing: border-box;
     border-radius: 10px;
 }
